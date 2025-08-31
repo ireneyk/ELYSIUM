@@ -1,8 +1,19 @@
-# ELYSIUM
+# ELYSIUM Hospital
 
-A web application project featuring a modern UI with HTML, CSS, and JavaScript.
+A modern hospital website featuring a beautiful UI with HTML, CSS, and JavaScript.
 
-🌐 **Live Website:** [https://ireneyk.github.io/ELYSIUM/](https://ireneyk.github.io/ELYSIUM/)
+🏥 **Official Website:** [https://elysium-hospital.com](https://elysium-hospital.com)  
+🌐 **GitHub Pages:** [https://ireneyk.github.io/ELYSIUM/](https://ireneyk.github.io/ELYSIUM/)
+
+## About ELYSIUM Hospital
+
+ELYSIUM Hospital is a state-of-the-art medical facility dedicated to providing exceptional healthcare services. Our modern website showcases our commitment to patient care, featuring:
+
+- **Professional Medical Services**
+- **Expert Doctor Directory**
+- **Online Appointment Booking**
+- **Patient Portal Access**
+- **Emergency Contact Information**
 
 ## Project Structure
 
