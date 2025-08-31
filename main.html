@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elysium Hospital</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://i.ibb.co/9kJ4MX7t/Chat-GPT-Image-Aug-29-2025-08-27-11-AM.png" alt="Elysium Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Doctors</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="dark-mode-toggle"><i class="fas fa-moon"></i></button>
+        <button class="btn make-appointment-btn" data-modal-target="#appointmentModal">Make Appointment</button>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>A Place of Healing.</h1>
+            <p>Welcome to Elysium Hospital – where compassion meets innovation. Find the best doctors, clinics, and care near you.</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search doctors, clinics, hospitals..." data-search-input>
+                <button>Find Now</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://i.ibb.co/C3dnrLQT/Medium-shot-nurse-and-doctor-checking-patient-Free-Photo.jpg" alt="Doctors">
+        </div>
+    </section>
+
+    <section class="about-us">
+        <div class="about-content">
+            <div class="about-text slide-left">
+                <h4>About Us</h4>
+                <h2>Experienced Workers</h2>
+                <p>
+                    Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est. Aliquam
+                </p>
+
+                <div class="about-buttons">
+                    <button class="btn active">Vision</button>
+                    <button class="btn">Mission</button>
+                    <button class="btn">Strategy</button>
+                </div>
+
+                <p>
+                    Aliquam faucibus, odio nec commodo aliquam, neque felis placerat dui, a porta ante lectus dapibus est.
+                    Aliquam a bibendum mi, sed condimentum
+                </p>
+
+                <ul class="about-list">
+                    <li>✔ Sonsectetur adipisicing elit</li>
+                    <li>✔ Eiusmod tempor incididunt</li>
+                    <li>✔ Exercitation ullamco laboris</li>
+                    <li>✔ Aolore magna aliqua</li>
+                </ul>
+            </div>
+
+            <div class="about-image slide-right">
+                <img src="https://i.ibb.co/N2XrZpXk/stiker.jpg" alt="Doctor"> </div>
+        </div>
+    </section>
+
+    <section class="specialists">
+        <h4 class="subtitle">Doctors Listing</h4>
+        <h2 class="title">Browse by specialist</h2>
+        <div class="specialist-grid">
+            <div class="specialist-card slide-up" data-specialist-card data-specialist="Psychiatry">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3209/3209990.png" alt="Psychiatry">
+                </div>
+                <div class="text-content">
+                    <h3>Psychiatry</h3>
+                    <p>Porta velit</p>
+                </div>
+            </div>
+            <div class="specialist-card slide-up" data-specialist-card data-specialist="Gynecology">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966489.png" alt="Gynecology">
+                </div>
+                <div class="text-content">
+                    <h3>Gynecology</h3>
+                    <p>Mattis augue</p>
+                </div>
+            </div>
+            <div class="specialist-card slide-up" data-specialist-card data-specialist="Pulmonology">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" alt="Pulmonology">
+                </div>
+                <div class="text-content">
+                    <h3>Pulmonology</h3>
+                    <p>Mauriis laoreet</p>
+                </div>
+            </div>
+            <div class="specialist-card slide-up" data-specialist-card data-specialist="Orthopedics">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966492.png" alt="Orthopedics">
+                </div>
+                <div class="text-content">
+                    <h3>Orthopedics</h3>
+                    <p>Convallis vulputate</p>
+                </div>
+            </div>
+            <div class="specialist-card slide-up" data-specialist-card data-specialist="Pediatrics">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3774/3774299.png" alt="Pediatrics">
+                </div>
+                <div class="text-content">
+                    <h3>Pediatrics</h3>
+                    <p>Posuere maecenas</p>
+                </div>
+            </div>
+            <div class="specialist-card slide-up" data-specialist-card data-specialist="Osteology">
+                <div class="icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966492.png" alt="Osteology">
+                </div>
+                <div class="text-content">
+                    <h3>Osteology</h3>
+                    <p>Nisi nullam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="articles">
+        <h4 class="subtitle slide-up">News & Article</h4>
+        <h2 class="title slide-up">Latest Articles</h2>
+        <div class="article-grid">
+            <div class="article-card slide-up">
+                <div class="background-image-container" style="background-image: url('https://i.ibb.co/7dRjzQFN/download-11.jpg');"></div>
+                <div class="article-info">
+                    <span class="author-info">
+                        <i class="fas fa-user-circle"></i> BY ADMIN <span class="divider">|</span> <i class="fas fa-stethoscope"></i> Specialist
+                    </span>
+                    <h3 class="article-title">Could intermittent fasting reduce breast cancer</h3>
+                    <span class="article-date">28 JANUARY, 2022</span>
+                </div>
+                <div class="card-overlay">
+                    <h3 class="article-title-hover">Could intermittent fasting reduce breast cancer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="article-card active slide-up">
+                <div class="background-image-container" style="background-image: url('https://i.ibb.co/7dRjzQFN/download-11.jpg');"></div>
+                <div class="article-info">
+                    <span class="author-info">
+                        <i class="fas fa-user-circle"></i> BY ADMIN <span class="divider">|</span> <i class="fas fa-stethoscope"></i> Specialist
+                    </span>
+                    <h3 class="article-title">Give children more autonomy during the pandemic</h3>
+                    <span class="article-date">28 JANUARY, 2022</span>
+                </div>
+                <div class="card-overlay">
+                    <h3 class="article-title-hover">Give children more autonomy during the pandemic</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+
+            <div class="article-card slide-up">
+                <div class="background-image-container" style="background-image: url('https://i.ibb.co/7dRjzQFN/download-11.jpg');"></div>
+                <div class="article-info">
+                    <span class="author-info">
+                        <i class="fas fa-user-circle"></i> BY ADMIN <span class="divider">|</span> <i class="fas fa-stethoscope"></i> Specialist
+                    </span>
+                    <h3 class="article-title">How do binge eating and drinking impact the liver?</h3>
+                    <span class="article-date">28 JANUARY, 2022</span>
+                </div>
+                <div class="card-overlay">
+                    <h3 class="article-title-hover">How do binge eating and drinking impact the liver?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content slide-up">
+            <div class="footer-col">
+                <img src="https://i.ibb.co/9kJ4MX7t/Chat-GPT-Image-Aug-29-2025-08-27-11-AM.png" alt="Elysium Logo" class="footer-logo">
+                <p>Welcome to Elysium Hospital – where compassion meets innovation. Find the best doctors, clinics, and care near you.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#">Cardiology</a></li>
+                    <li><a href="#">Neurology</a></li>
+                    <li><a href="#">Orthopedics</a></li>
+                    <li><a href="#">Pediatrics</a></li>
+                    <li><a href="#">Dental</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter to get latest updates.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Elysium Hospital. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="appointmentModal">
+        <div class="modal-content">
+            <span class="close-btn" data-close-modal>&times;</span>
+            <div class="modal-header">
+                <h3>Book an Appointment</h3>
+            </div>
+            <div class="modal-body">
+                <form id="appointmentForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="specialist">Specialist</label>
+                        <select id="specialist" name="specialist" required>
+                            <option value="">Select a specialist...</option>
+                            <option value="Psychiatry">Psychiatry</option>
+                            <option value="Gynecology">Gynecology</option>
+                            <option value="Pulmonology">Pulmonology</option>
+                            <option value="Orthopedics">Orthopedics</option>
+                            <option value="Pediatrics">Pediatrics</option>
+                            <option value="Osteology">Osteology</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Additional Notes</label>
+                        <textarea id="notes" name="notes" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn submit-btn">Submit Appointment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="modal-overlay" class="modal-overlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
