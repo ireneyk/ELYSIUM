@@ -37,9 +37,17 @@ ELYSIUM/
 
 ## Features
 
-- Modern web interface
-- Responsive design
-- Interactive elements
+- **Modern Responsive Design** - Beautiful UI that works on all devices
+- **Dark Mode Toggle** - Switch between light and dark themes
+- **Interactive Search** - Filter doctors by specialty
+- **Appointment Booking Modal** - Complete appointment form with validation
+- **Scroll Animations** - Smooth reveal animations as you scroll
+- **Professional Hospital Branding** - Medical-focused design and content
+- **Newsletter Subscription** - Email signup functionality
+- **Social Media Integration** - Links to social platforms
+- **Specialist Directory** - Browse doctors by medical specialty
+- **Latest Articles Section** - Medical news and health tips
+- **Contact Information** - Complete hospital contact details
 
 ## Technologies Used
 
