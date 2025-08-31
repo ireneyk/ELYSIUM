@@ -2,8 +2,8 @@
 
 A modern hospital website featuring a beautiful UI with HTML, CSS, and JavaScript.
 
-🏥 **Official Website:** [https://elysium-hospital.com](https://elysium-hospital.com)  
-🌐 **GitHub Pages:** [https://ireneyk.github.io/ELYSIUM/](https://ireneyk.github.io/ELYSIUM/)
+🏥 **Official Website:** [https://ireneyk.github.io/ELYSIUM/](https://ireneyk.github.io/ELYSIUM/)  
+🌐 **GitHub Repository:** [https://github.com/ireneyk/ELYSIUM](https://github.com/ireneyk/ELYSIUM)
 
 ## About ELYSIUM Hospital
 
